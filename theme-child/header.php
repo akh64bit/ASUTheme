@@ -27,12 +27,13 @@
 	<!--[if lt IE 9]>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
 	<![endif]-->
-	
+	<?php wp_head(); ?>
 	<meta name="viewport" content="width=device-width; initial-scale=1.0">
-	<?php include(‘http://www.asu.edu/asuthemes/4.0-rsp.1/headers/fulton_engineering_gold.shtml'); ?>
+	<?php include('/afs/asu.edu/www/asuthemes/4.0-rsp.1/heads/default.shtml'); ?>
 </head>
 
 <body <?php body_class(); ?>>
+<?php include('/afs/asu.edu/www/asuthemes/4.0-rsp.1/headers/default.shtml'); ?>
 	<div id="page" class="hfeed site">
 		<header id="masthead" class="site-header" role="banner">
 			<a class="home-link" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">

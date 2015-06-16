@@ -22,5 +22,6 @@
 	</div><!-- #page -->
 
 	<?php wp_footer(); ?>
+	<?php include('/afs/asu.edu/www/asuthemes/4.0-rsp.1/includes/footer.shtml'); ?>
 </body>
 </html>
